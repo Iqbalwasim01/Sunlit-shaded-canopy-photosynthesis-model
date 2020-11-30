@@ -3,6 +3,8 @@ For the R scripts/code to work you must have the following R packages installed:
 required:'Bigleaf','pracma','foreach','dplyr'
 optional:'ggplot2'- if running example simulation
 
+Ignore this warning during model execution: 'Warning message: executing %dopar% sequentially: no parallel backend registered'. Seems to be an unknown problem with the foreach package. However, has not caused any problems with my modelling. 
+
 # 1 Loading model functions
 Once all necessary R packages have been installed. Run the following file to load all model functions:
 'Canopy model functions.R'
