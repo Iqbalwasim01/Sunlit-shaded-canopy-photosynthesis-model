@@ -9,7 +9,7 @@ Ignore this warning during model execution: 'Warning message: executing %dopar% 
 
 Make sure all files are within the same file directory and your R session is linked to the same directory. 
 
-The 'Canopy model functions.R' file has many redundant functions from trial and error or were not needed in the final model. For the final functions see the functions within the 'Two.big.leaf.concept()' function.  
+The 'Canopy model functions.R' file has many redundant functions because of trial and error. For the final functions see the functions within the 'Two.big.leaf.concept()' function.  
 
 # 1 Loading model functions
 Once all necessary R packages have been installed. Run the following file to load all model functions:
