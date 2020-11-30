@@ -18,7 +18,7 @@ leaf.angle="Wheat", "Rice", "Maize" or "Sugar beet"  "
 
 pathway= "C3" or "C4" 
 
-Tair= Air temperature (degrees celsious)
+Tair= Air temperature (degrees celsius)
 
 Humidity= Humidity (%)/100 or ratio
 
