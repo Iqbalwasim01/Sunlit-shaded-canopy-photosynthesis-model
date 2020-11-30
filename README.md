@@ -28,7 +28,7 @@ A lot of work has been put into condensing the canopy model into a simple excuta
 
 The function above takes an environnmental observation as a row within the dataframe whether this is a daily,hourly,yearly or monthly observation. No.kinetic.sets must be specified if you have imported another file with more than one set of Rubisco kinetics (i.e. Kcat, Kc Sc.o etc). If running only one set of kinetics then simply set it to '1' and enter the one set of kinetics directly into the function. 
 
-File.length and No.kinetic.sets are used to give users a progress/counter from 0-100% which will be displayed on your R console. This is because  simulations can sometimes take a few minutes to complete. 
+File.length and No.kinetic.sets are used to give users a progress/counter from 0-100% on the R console. Simulations can sometimes take a few minutes to complete so its convient to have an indication of progress. 
 
 A full list input meanings can be found:
 'Canopy model function inputs.txt'
