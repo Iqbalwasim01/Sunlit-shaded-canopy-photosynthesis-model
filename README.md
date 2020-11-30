@@ -4,6 +4,7 @@ required:'Bigleaf','pracma','foreach','dplyr'
 optional:'ggplot2'- if running example simulation
 
 Important notes:
+
 Ignore this warning during model execution: 'Warning message: executing %dopar% sequentially: no parallel backend registered'. Seems to be an unknown problem with the foreach package. However, has not caused any problems with my modelling. 
 
 Make sure all files are within the same file directory and your R session is linked to the same directory. 
