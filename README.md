@@ -21,7 +21,7 @@ Using the 'Example simulation-sugar beet.R' run each line of code to run the sim
 NOTE: Make sure all files are within the same file directory and your R session is linked to the same directory. 
 
 # 3 Brief explanation of canopy model function:
-A lot of work has been put into condensing the canopy model into a simple excutable function: 
+The canopy model is a single executable function: 
 
 'Two.big.leaf.concept(File.length = nrow('filename'),No.kinetic.sets=,LAI=,crop.type="C3",leaf.angle="Spherical",pathway="C3",Tair =,wind =,humidity = x/100,Precip =
                              ,SWC_1 =,Rn=,H=,LE=,LMA=,pressure =,SZA =,SW_down =,Ca=,Sensor.height =,Kcat =,Kc =,Sc.o =,KcHA=,VmaxHA=,GamHA=)'
