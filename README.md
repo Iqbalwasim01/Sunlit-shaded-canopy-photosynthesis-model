@@ -14,7 +14,7 @@ Download and open the script:
 
 Download the site environmental data from the file:
 'Final.daily.data.csv'
-Import the file as a 'text (base)' and specify the first row as headings. If the file is NOT imported as a 'text(file)' the functions may have problems recognising field names.
+Import the file as a 'text (base)' and specify the first row as headings. If the file is NOT imported as a 'text(base)' the functions may have problems recognising field names.
 
 Using the 'Example simulation-sugar beet.R' run each line of code to run the simulation. 
 
