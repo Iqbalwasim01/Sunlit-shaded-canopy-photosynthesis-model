@@ -1,4 +1,4 @@
-# Sunlit-shaded-canopy-photosynthesis-model
+# Sunlit/shaded canopy photosynthesis-model
 For the R scripts/code to work you must have the following R packages installed:
 required:'Bigleaf','pracma','foreach','dplyr'
 optional:'ggplot2'- if running example simulation
