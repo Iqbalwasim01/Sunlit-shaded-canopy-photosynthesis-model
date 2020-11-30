@@ -3,7 +3,12 @@ For the R scripts/code to work you must have the following R packages installed:
 required:'Bigleaf','pracma','foreach','dplyr'
 optional:'ggplot2'- if running example simulation
 
+Important notes:
 Ignore this warning during model execution: 'Warning message: executing %dopar% sequentially: no parallel backend registered'. Seems to be an unknown problem with the foreach package. However, has not caused any problems with my modelling. 
+
+Make sure all files are within the same file directory and your R session is linked to the same directory. 
+
+The 'Canopy model functions.R' file has many redundant functions from trial and error or were not needed in the final model. For the final functions see the functions within the 'Two.big.leaf.concept()' function.  
 
 # 1 Loading model functions
 Once all necessary R packages have been installed. Run the following file to load all model functions:
@@ -20,7 +25,6 @@ Import the file as a 'text (base)' and specify the first row as headings. If the
 
 Using the 'Example simulation-sugar beet.R' run each line of code to run the simulation. 
 
-NOTE: Make sure all files are within the same file directory and your R session is linked to the same directory. 
 
 # 3 Brief explanation of canopy model function:
 The canopy model is a single executable function: 
