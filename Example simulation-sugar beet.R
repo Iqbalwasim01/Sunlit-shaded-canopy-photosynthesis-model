@@ -1,10 +1,7 @@
 
 # libraries
-library(bigleaf)
-library(pracma)
 library(ggplot2)
 library(foreach)
-library(dplyr)
 
 
 # Input files
