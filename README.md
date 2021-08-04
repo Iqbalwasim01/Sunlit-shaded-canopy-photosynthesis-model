@@ -17,15 +17,11 @@ Once all necessary R packages have been installed. Run the following file to loa
 This can be done with 'Ctrl+a' and pressing run:
 
 # 2 Running model example
-Download and open the script: 
-'Example simulation-sugar beet.R'
+Download all site files (i.e. maize, wheat and sugar beet) and place them in a file directory. Each site file contains the environemental values stored in ' 'Final.daily.data.csv' needed to drive the model and the associated canopy model script e.g. 'Wheat canopy.R'. 
 
-Download the site environmental data from the file:
-'Final.daily.data.csv'
-Import the file as a 'text (base)' and specify the first row as headings. If the file is NOT imported as a 'text(base)' the functions may have problems recognising field names.
+To run the Wheat example, import the 'Final.daily.data.csv'  file as a 'text (base)' and specify the first row as headings. If the file is NOT imported as a 'text(base)' the functions may have problems recognising field names.
 
-Using the 'Example simulation-sugar beet.R' run each line of code to run the simulation. 
-
+Using the "Wheat canopy.R" run each line of code to run the Wheat canopy simulation. 
 
 # 3 Brief explanation of canopy model function:
 The canopy model is a single executable function: 
