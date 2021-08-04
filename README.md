@@ -1,4 +1,8 @@
 # Sunlit/shaded canopy photosynthesis-model
+This respiratory contains the scripts/code for the paper: 
+
+Wasim A Iqbal, Isabel G Miller, Rebecca L Moore, Iain J Hope, Daniel Cowan-Turner, Maxim V Kapralov, Rubisco substitutions predicted to enhance crop performance through carbon uptake modelling, Journal of Experimental Botany, 2021;, erab278, https://doi.org/10.1093/jxb/erab278
+
 For the R scripts/code to work you must have the following R packages installed:
 
 required:'foreach','ggplot2'
@@ -17,7 +21,7 @@ Once all necessary R packages have been installed. Run the following file to loa
 This can be done with 'Ctrl+a' and pressing run:
 
 # 2 Running model example
-Download all site files (i.e. maize, wheat and sugar beet) and place them in a file directory. Each site file contains the environemental values stored in ' 'Final.daily.data.csv' needed to drive the model and the associated canopy model script e.g. 'Wheat canopy.R'. 
+Download all site files (i.e. maize, wheat and sugar beet) and place them in a file directory. Each site file contains the environmental values stored in ' 'Final.daily.data.csv' needed to drive the model and the associated canopy model script e.g. 'Wheat canopy.R'. 
 
 To run a simulation, import the site 'Final.daily.data.csv' file as a 'text (base)' and specify the first row as headings. If the file is NOT imported as a 'text(base)' the functions may have problems recognising field names.
 
