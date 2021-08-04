@@ -1,5 +1,5 @@
 # Sunlit/shaded canopy photosynthesis-model
-This respiratory contains the scripts/code for the paper: 
+This repository contains the scripts/code for the paper: 
 
 Wasim A Iqbal, Isabel G Miller, Rebecca L Moore, Iain J Hope, Daniel Cowan-Turner, Maxim V Kapralov, Rubisco substitutions predicted to enhance crop performance through carbon uptake modelling, Journal of Experimental Botany, 2021;, erab278, https://doi.org/10.1093/jxb/erab278
 
